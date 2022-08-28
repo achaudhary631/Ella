@@ -1,0 +1,2337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elle</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+    integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+    integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="scss/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+
+</head>
+
+<body>
+  <!---------------------------------header------------------------->
+  <header>
+    <div class="seasonal bg-light text-center py-2">
+      <p>Mid-Season Sale Up to 70% OFF.</p>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>LANGUAGE</p>
+        <hr>
+        <div class="language d-flex mb-5 ">
+          <div class="left d-flex">
+            <a href="#"><img src="image/den.webp" width="23px" height="16px" alt=""></a>
+            <a href="#" class="ms-2 text-dark">DE</a>
+          </div>
+          <div class="rlang a d-flex ">
+            <a href="#"><img src="image/eng.png" alt="" width="23px" height="16px"></a>
+            <a href="#" class="ms-2 text-dark">ENG</a>
+          </div>
+        </div>
+        <p>CURRENCY</p>
+        <hr>
+        <div class="currency1 d-flex text-decoration-none">
+          <div class="left d-flex ">
+            <a href="#"><img src="image/usd.png" width="23px" height="16px" alt=""></a>
+            <a href="#" class="ms-2 text-dark">USD</a>
+          </div>
+          <div class="right d-flex">
+            <a href="#"><img src="image/eur.png" width="23px" height="16px" alt=""></a>
+            <a href="#" class="ms-2 text-dark">EUR</a>
+          </div>
+        </div>
+        <div class="currency2 d-flex py-3">
+          <div class="left d-flex">
+            <a href="#"><img src="image/gbp.png" width="23px" height="16px" alt=""></a>
+            <a href="#" class="ms-2 text-dark">GBP</a>
+          </div>
+          <div class="right d-flex">
+            <a href="#"><img src="image/chf.png" width="23px" height="16px" alt=""></a>
+            <a href="#" class="ms-2 text-dark">CHF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social px-2">
+      <ul>
+        <li class="text-center mb-3 mt-5">
+          <a href="#" class="text-dark ">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="text-center my-3">
+          <a href="#" class="text-dark">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="text-center my-3">
+          <a href="#" class="text-dark">
+            <i class="fa-brands fa-google-plus-g"></i>
+          </a>
+        </li>
+        <li class="text-center my-3 ">
+          <a href="#" class="text-dark">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="text-center my-3">
+          <a href="#" class="text-dark">
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="text-center my-3 ">
+          <a href="#" class="text-dark">
+            <i class="fa-brands fa-snapchat"></i>
+          </a>
+        </li>
+
+      </ul>
+      <div class="textorient">
+        <a href="#">newsletter</a>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasmid" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h5>YOUR BAG</h5>
+        <hr>
+        <p class="text-center">Your cart is currently empty.</p>
+        <button class="shopping  px-5 py-2">CONTINUE SHOPPING</button>
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasleft" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <h5>CUSTOMER LOGIN:</h5>
+        <hr>
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Email address <span class="star">*</span> </label>
+            <input type="email" class="form-control" placeholder="Email Address">
+
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password <span class="star">*</span></label>
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+        </form>
+        <div class="mb-3">
+          <button class="shopping px-5 py-2"">LOGIN</button>
+        </div>
+        <div class=" mb-3 text-center">
+            <a href="" class="text-dark">Forgot your pasword?</a>
+        </div>
+        <div class="mb-3">
+          <button class="shopping px-5 py-2" id="create">CREATE AN ACCOUNT</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="arrow">
+      <div class="arrowleft">
+        <button><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-box-arrow-up-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M7.364 3.5a.5.5 0 0 1 .5-.5H14.5A1.5 1.5 0 0 1 16 4.5v10a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 3 14.5V7.864a.5.5 0 1 1 1 0V14.5a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5v-10a.5.5 0 0 0-.5-.5H7.864a.5.5 0 0 1-.5-.5z" />
+            <path fill-rule="evenodd"
+              d="M0 .5A.5.5 0 0 1 .5 0h5a.5.5 0 0 1 0 1H1.707l8.147 8.146a.5.5 0 0 1-.708.708L1 1.707V5.5a.5.5 0 0 1-1 0v-5z" />
+          </svg></button>
+      </div>
+      <div class="arrowup">
+        <button> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+            class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+          </svg><span class="top ms-2">Top</span></button>
+
+      </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body pe-0 ps-0">
+        <ul class="list-unstyled">
+          <li class="nav-item">
+            <a class="nav-link active" id="navnewin" aria-current="page" href="#">NEW IN<span class="navnew"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="natrend">TREND</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nacoll">COLLECTIONS</a>
+            <span id="navtooltip">Sale</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nachild">CHILD THEMES</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="#" id="nademo">DEMO</a>
+            <span id="navtooltip2">New</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nashin">SHOP INSTAGRAM</a>
+            <span id="navtooltip3">Hot</span>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nablog">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nabrand">BRANDS</a>
+          </li>
+        </ul>
+        <div class="account">
+          <p>My Wish Lists</p>
+          <p>Sign In</p>
+          <p>Create an account</p>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <!---------------------------------------end of header----------------->
+
+  <!------------------------------------navbar--------------------------->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container py-3">
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <button id="navtg1" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"></button>
+      <a class="navbar-brand my-0 py-0" href="#"><img src="image/ella-logo-black-compressor.webp" width="72px"
+          height="33.6px" alt=""></a>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto me-auto ">
+          <li class="nav-item me-3 ">
+            <a class="nav-link active" id="navnewin" aria-current="page" href="#">NEW IN<span class="navnew"></span></a>
+            <section class="menu bg-light">
+              <div class="conatiner">
+                <div class="mega py-5 d-flex justify-content-between">
+                  <div class="leftmega">
+                    <div class="top d-flex ">
+                      <div class="left me-5">
+                        <a href="" class="heading">LOREM DORUS</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="midtop me-4">
+                        <a href="" class="heading">Milancelos Lanos</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="right ms-5">
+                        <a href="" class="heading">Lynn Cosmopolis</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bottom d-flex pt-4 ">
+                      <div class="left me-5">
+                        <a href="" class="heading"> Cosmo Milano</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span> </a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodiano</span>s</a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="mid ms-5 me-5">
+                        <a href="" class="heading">Nor Loremirus</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="right ms-5">
+                        <a href="" class="heading">Accéssorius</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rightmega d-flex justify-content-right">
+                    <div class="arrivalleft">
+                      <div class="newarrimage">
+                        <img src="image/newarrival.jpg" alt="">
+                        <div class="overlay1">
+                          <div class="suboverlay1"></div>
+                        </div>
+                      </div>
+                      <div class="newarrimage mt-2">
+                        <img src="image/shop_clearance.jpg" alt="">
+                        <div class="overlay1">
+                          <div class="suboverlay1"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="arrivalright">
+                      <div class="newarrimage ms-2">
+                        <img src="image/mega-style-2-3-compressor_250x.jpg" alt="">
+                        <div class="overlay1">
+                          <div class="suboverlay1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#" id="natrend">TREND<span class="navtrend"></span></a>
+            <section class="menu bg-light">
+              <div class="conatiner">
+                <div class="mega py-5 d-flex justify-content-between">
+                  <div class="leftmega">
+                    <div class="top d-flex ">
+                      <div class="left me-5">
+                        <a href="" class="heading">LOREM DORUS</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="midtop me-4">
+                        <a href="" class="heading">Milancelos Lanos</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="right ms-5">
+                        <a href="" class="heading">Lynn Cosmopolis</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="bottom d-flex pt-4 ">
+                      <div class="left me-5">
+                        <a href="" class="heading"> Cosmo Milano</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span> </a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodiano</span>s</a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="mid ms-5 me-5">
+                        <a href="" class="heading">Nor Loremirus</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                      <div class="right ms-5">
+                        <a href="" class="heading">Accéssorius</a>
+                        <ul class="list-unstyled">
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a>
+                          </li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                          <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rightmega d-flex justify-content-right">
+                    <div class="arrivalleft text-center me-3">
+                      <h5 class="mb-3">FEATURED PRODUCTS</h5>
+                      <img src="image/meg1.webp" width="120px" height="160px" alt="">
+                      <p class="mt-3 m-0">Daventry Meers</p>
+                      <p class="pt-2 pb-2 m-0">Dempus lortis cosmo sapiendo</p>
+                      <span class="text-dark"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                      <span class="text-dark"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                      <span class="text-dark"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                      <span class="text-dark"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                      <span class="text-dark"><i class="fa fa-star-o" aria-hidden="true"></i></span>
+                      <h5 class="pt-2 pb-1"><span class="me-2">from</span>$99.00</h5>
+                      <button class="bg-light">SELECT OPTIONS</button>
+                    </div>
+                    <div class="arrivalright">
+                      <div class="newarrimage ms-2">
+                        <img src="image/mega-style-1-compressor_250x_6768ceb7-4b13-428e-be7e-78ef8b430fe0_210x.jpg"
+                          alt="">
+                        <div class="overlay1">
+                          <div class="suboverlay1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#" id="nacoll">COLLECTIONS<span
+                class="navcollection"></span></a>
+            <span id="tooltip">Sale</span>
+            <section class="menu bg-light">
+              <div class="conatiner">
+                <div class="mega py-4 d-flex justify-content-between">
+                  <div class="left">
+                    <a href="" class="heading">LOREM DORUS</a>
+                    <ul class="list-unstyled">
+                      <li class="pt-2"><a href=""><span class="dinci position-relative">Dincidunteros</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="midtop me-4">
+                    <a href="" class="heading">Milancelos Lanos</a>
+                    <ul class="list-unstyled">
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="right me-4">
+                    <a href="" class="heading">Lynn Cosmopolis</a>
+                    <ul class="list-unstyled">
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="left me-4">
+                    <a href="" class="heading"> Cosmo Milano</a>
+                    <ul class="list-unstyled">
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span> </a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodiano</span>s</a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="mid me-4">
+                    <a href="" class="heading">Nor Loremirus</a>
+                    <ul class="list-unstyled">
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="right me-3">
+                    <a href="" class="heading">Accéssorius</a>
+                    <ul class="list-unstyled">
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Dincidunteros</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Loremous</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Comodianos</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Gravidas</span></a></li>
+                      <li class="pt-2"><a href=""><span class="dinci position-relative ">Montemous</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#" id="nachild">CHILD THEMES<span
+                class="navchildtheme"></span></a>
+            <section class="megamenu bg-light">
+              <ul class="list-unstyled">
+                <li class="mb-2 "><a href="">Bagratica</a></li>
+                <li class="mb-2"><a href="">Bicycle</a></li>
+                <li class="mb-2"><a href="">Caros</a></li>
+                <li class="mb-2"><a href="">Furnitica</a></li>
+                <li class="mb-2"><a href="">Jewelias</a></li>
+                <li class="mb-2"><a href="">Luxwatches</a></li>
+                <li class="mb-2"><a href="">Petica</a></li>
+                <li class="mb-2"><a href="">Soun</a></li>
+                <li class="border-0"><a href="">Watchtica</a></li>
+              </ul>
+            </section>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="#" id="nademo">DEMO<span class="navdemo"></span></a>
+            <span id="tooltip2">New</span>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link active" aria-current="page" href="#" id="nashin">SHOP INSTAGRAM<span
+                class="navshopinsta"></span></a>
+            <span id="tooltip3">Hot</span>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link active" aria-current="page" href="#" id="nablog">BLOG<span class="navblog"></span></a>
+            <section class="megamenu bg-light">
+              <ul class="list-unstyled">
+                <li class="mb-2 "><a href="">Blog Default Layout</a></li>
+                <li class="mb-2"><a href="">Blog With Right Sidebar</a></li>
+                <li class="mb-2"><a href="">Blog Masonary</a></li>
+                <li class="mb-2"><a href="">Blog Full-width</a></li>
+                <li class="mb-2"><a href="">Blog Post With Logbook</a></li>
+                <li class="border-0 mb-1"><a href="">Blog Post With Product Widget</a></li>
+              </ul>
+            </section>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="nabrand">BRANDS<span
+                class="navbrands"></span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="left">
+        <a href="#" class="me-3" id="search"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+            fill="currentColor" class="bi bi-search text-dark ms-3" viewBox="0 0 16 16">
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+          </svg>
+        </a>
+        <div id="headsearch">
+          <input type="text" placeholder="Search">
+          <span id="se2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+              class="bi bi-search" viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></span>
+          <span id="close2"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-x" viewBox="0 0 16 16">
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+            </svg></span>
+        </div>
+        <a href="#" class="me-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasleft"
+          aria-controls="offcanvasleft">
+          <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+              class="bi bi-person text-dark" viewBox="0 0 16 16">
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg></span>
+        </a>
+        <a href="#" class="me-3" id="navheart"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+            fill="currentColor" class="bi bi-suit-heart  text-dark" viewBox="0 0 16 16">
+            <path
+              d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+          </svg></a>
+        <a href="#" class="cart position-relative me-4" data-bs-toggle="offcanvas" data-bs-target="#offcanvasmid"
+          aria-controls="offcanvasmid">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+            class="bi bi-cart3 text-dark " viewBox="0 0 16 16">
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+          </svg>
+          <span class="cartbadge position-absolute top-0 start-100 translate-middle badge ">0</span>
+        </a>
+        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span
+            class="navbar-toggler-icon" id="togicon"></span>
+        </a>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!----------------------------------------------end of navbar----------------------------->
+
+  <!-------------------------------------carousal------------------------------->
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/slider-1_e20caf72-7e55-4124-bfee-cba7cb390cd1.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h3>Most Popular</h3>
+            <h1>Cosmo Milancelos</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur earum, excepturi amet
+              sequi </p>
+            <button class="border-0 rounded-pill">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/slider-1_e20caf72-7e55-4124-bfee-cba7cb390cd1.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h3>Christmas Sale</h3>
+            <h1>Sale Upto 70% off</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis vel, accusantium impedit
+            </p>
+            <button class=" border-0 rounded-pill">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/slider-1_e20caf72-7e55-4124-bfee-cba7cb390cd1.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h3>Most Popular</h3>
+            <h1>Lorem Metropolis</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus laborum voluptatibus id
+            </p>
+            <button class="border-0 rounded-pill">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!---------------------------------end of carousal---------------------------->
+
+  <!----------------------editors pick---------------------------------->
+  <section class="editorspick">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="editor">
+            <p>EDITOR'S PICK</p>
+            <h3>Cosmo milance collections</h3>
+            <button class="mt-4 py-2 px-5 border-0 rounded-pill">SHOP NOW</button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="test d-flex py-3">
+            <img src="image/image-parallax-1-compressor_75f06c07-7138-4749-a906-814d673018d3.webp"  alt="" class="xmastree">
+            <img src="image/image-parallax-2.webp" width="100px" height="116px" alt="" class="xmasball">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-----------------------end of editors pick------------------------>
+
+  <!-----------------------start of slider------------------------------->
+
+  <section class="slider my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="giftbox">
+            <img
+              src="image/image-banner-middle-1-compressor_1024x1024_crop_center_56811743-764c-4542-a8a6-d5725691664a_1024x1024_crop_center.jpg "
+              width="540px" height="780px" alt="">
+            <div class="overlaygift"></div>
+          </div>
+          <p class="mt-4 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora culpa quos rem
+            fugit. Optio consequuntur numquam eligendi autem temporibus libero nihil aut voluptates alias, soluta hic!
+            Similique, atque tenetur!</p>
+          <h5>SHOP THE COLLECTIONS</h5>
+        </div>
+        <div class="col-lg-6">
+          <div class="textrig text-center pt-5">
+            <h5 class="py-5">Metropolis</h5>
+            <h3 class="pb-4">Venenatis Dapibus
+              Collections</h3>
+            <button class="px-5 py-3 rounded-pill mb-5">SHOP NOW</button>
+          </div>
+          <div class="giftbox">
+            <img src="image/image-banner-middle-2-compressor_1024x1024_crop_center.jpg" width="570px" height="570px" alt="">
+            <div class="overlaygift2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---------------------end of slider--------------------------------->
+
+  <!------------------------banner------------------------------------->
+  <section class="banner">
+    <div class="container">
+      <div class="row text-center">
+        <h5 class="pt-5 pb-3">NEW ARRIVALS</h5>
+        <P class="pb-4">Phasellus lorem malesuada ligula cosmopolis</P>
+        <div class="banner d-lg-flex justify-content-between">
+          <div class="bannerleft d-flex ">
+            <!-- ---------------------1st product------------ -->
+            <div class="leftone me-4 ">
+              <div id="firstimage" onmouseover="abc()" onmouseout="def()">
+                <img id="fimage" src="image/img8.webp" width="255px" height="360px" alt="">
+                <div class="text-center" id="innertext">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                  </div>
+                  <div class="quickview">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent" onmouseover="imgho()" onmouseout="imgno()">
+                <img src="image/img1.webp" width="255px" height="360px" alt="">
+                <div class="text-center" id="innertext">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                  </div>
+                  <div class="quickview">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#">
+                <p class="mt-3 text-dark">jimmy choo</p>
+              </a>
+              <a href="#">
+                <p class="mb-2 text-dark"> dementus a dincidunto -<span id="white"> White</span><span
+                    id="red">red</span> </p>
+              </a>
+              <h5>$489.00</h5>
+              <img onclick="fun1()" onmouseover="tooltip1()" onmouseout="toolout1()" src="image/img8.webp" alt=""
+                width="30px" height="30px" id="texti" class="me-1"><span id="tooltipimg2">Red</span>
+              <img onclick="fun2()" onmouseover="tooltip2()" onmouseout="toolout2()" src="image/img1.webp" alt=""
+                width="30px" height="30px" id="textii"><span id="tooltipimg">White</span>
+            </div>
+            <!-- ------------------2nd product--------------- -->
+            <div class="leftone ms-2">
+              <div id="firstimage2" onmouseover="abc2()" onmouseout="def2()">
+                <img id="fimage2" src="image/img2.webp" width="255px" height="360px" alt="">
+                <div class="text-center" id="innertext2">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill text-info" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill text-info" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill text-info" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill text-info" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill text-info" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                  </div>
+                  <div class="quickview">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent2" onmouseover="imgho2()" onmouseout="imgno2()">
+                <img src="image/img6.webp" width="255px" height="360px" alt="">
+                <div class="text-center" id="innertext2">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                  </div>
+                  <div class="quickview">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="#">
+                <p class="mt-3 text-dark">jimmy choo</p>
+              </a>
+              <a href="#">
+                <p class="mb-2 text-dark"> dementus a dincidunto -<span id="black"> Black</span><span
+                    id="gray">Gray</span> </p>
+              </a>
+              <h5>$489.00</h5>
+              <img onclick="fun12()" onmouseover="tooltip12()" onmouseout="toolout12()" src="image/img2.webp" alt=""
+                width="30px" height="30px" id="texti2" class="me-1"><span id="tooltipimg22">Black</span>
+
+              <img onclick="fun22()" onmouseover="tooltip22()" onmouseout="toolout22()" src="image/img6.webp" alt=""
+                width="30px" height="30px" id="textii2"><span id="tooltipimg2a">Gray</span>
+
+            </div>
+          </div>
+          <div class="bannerright d-flex ">
+            <!-------------------------3rd product--------------------------->
+            <div class="leftone me-4">
+              <div id="firstimage3" onmouseover="abc3()" onmouseout="def3()">
+                <img src="image/img7.webp" width="255px" height="360px" alt="" id="te1">
+                <div id="innertext3">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent3" onmouseover="imgho3()" onmouseout="imgno3()">
+                <img src="image/img3.webp" width="255px" height="360px" alt="">
+                <div id="innertext3">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent3a" onmouseover="imgho3a()" onmouseout="imgno3a()">
+                <img src="image/img15.webp" width="255px" height="360px" alt="" id="te2">
+                <div id="innertext3t">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent3b" onmouseover="imgho3b()" onmouseout="imgno3b()">
+                <img src="image/img4.webp" width="255px" height="360px" alt="" id="te3">
+                <div id="innertext3b">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent3c" onmouseover="imgho3c()" onmouseout="imgno3c()">
+                <img src="image/img9.webp" width="255px" height="360px" alt="" id="te4">
+                <div id="innertext3c">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent3d" onmouseover="imgho3d()" onmouseout="imgno3d()">
+                <img src="image/img10.webp" width="255px" height="360px" alt="" id="te5">
+                <div id="innertext3d">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="down">
+                <span id="new" class="border border-1 bg-white px-2">New</span>
+                <a href="#">
+                  <p class="mt-3 text-dark">GANTT</p>
+                </a>
+                <a href="#">
+                  <p class="mb-2 text-dark"> dementus a dincidunto -<span id="white1"> White</span> <span id="blue">
+                      Blue</span> <span id="gray1"> Gray</span>
+                    <span id="black1">Black</span> <span id="sky">Sky Blue</span> <span id="orange"> Orange</span>
+                  </p>
+                </a>
+                <h5> <span class="from pe-2 "> from</span>$86.00</h5>
+
+                <img onclick="firim3()" onmouseover="tooltipover3()" onmouseout="toolout3()" src="image/img7.webp"
+                  alt="" width="30px" height="30px" id="texti3" class="me-1"><span id="tooltipimg3">White</span>
+
+                <img onclick="fun3()" onmouseover="tooltipover3a()" onmouseout="toolout3a()" src="image/img3.webp"
+                  alt="" width="30px" height="30px" id="texti3a" class="me-1"><span id="tooltipimg3a">Blue</span>
+
+                <img onclick="fun3a()" onmouseover="tooltipover3b()" onmouseout="toolout3b()" src="image/img15.webp"
+                  alt="" width="30px" height="30px" id="texti3b" class="me-1"><span id="tooltipimg3b">Gray</span>
+
+                <img onclick="fun3b()" onmouseover="tooltipover3c()" onmouseout="toolout3c()" src="image/img4.webp"
+                  alt="" width="30px" height="30px" id="texti3c" class="me-1"><span id="tooltipimg3c">Black</span>
+
+                <span onclick="fun3s()" id="texti3s" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                  aria-expanded="false">+2</span>
+                <span onclick="fun3ss()" id="texti3ss" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                  aria-expanded="false">-2</span>
+
+                <div class="collapse" id="collapseExample">
+
+                  <img onclick="fun3c()" onmouseover="tooltipover3d()" onmouseout="toolout3d()" src="image/img9.webp"
+                    alt="" width="30px" height="30px" id="texti3d" class="me-1 mt-1"><span id="tooltipimg3d">Sky
+                    Blue</span>
+
+                  <img onclick="fun3d()" onmouseover="tooltipover3e()" onmouseout="toolout3e()" src="image/img10.webp"
+                    alt="" width="30px" height="30px" id="texti3e" class="mt-1"><span id="tooltipimg3e">Orange</span>
+                </div>
+              </div>
+            </div>
+            <!-----------------------------fourth product----------------------->
+            <div class="leftone ms-2">
+              <div id="firstimage4" onmouseover="abc4()" onmouseout="def4()">
+                <img src="image/img11.webp" width="255px" height="360px" alt="" id="te1a">
+                <div id="innertext4">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent4" onmouseover="imgho4()" onmouseout="imgno4()">
+                <img src="image/img13.webp" width="255px" height="360px" alt="">
+                <div id="innertext4">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent4a" onmouseover="imgho4a()" onmouseout="imgno4a()">
+                <img src="image/img16.webp" width="255px" height="360px" alt="" id="te2a">
+                <div id="innertext4t">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="apparent4b" onmouseover="imgho4b()" onmouseout="imgno4b()">
+                <img src="image/img17.webp" width="255px" height="360px" alt="" id="te3a">
+                <div id="innertext4b">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span class="border border-0 border-dark rounded-circle px-1"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-3">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">X</span></a>
+                    <a href="#" class="text-dark"><span class="sp2">M</span></a>
+                    <a href="#" class="text-dark"><span id="sp3">L</span></a>
+                    <a href="#" class="text-dark"><span id="sp1x">XL</span></a>
+                  </div>
+                  <div class="quickviewaks ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="down">
+                <span id="new1" class="border border-1 bg-white px-2">New</span>
+                <span id="sale" class="border-0 bg-danger text-white px-2">Sale</span>
+                <a href="#">
+                  <p class="mt-3 text-dark">ANNA</p>
+                </a>
+                <a href="#">
+                  <p class="mb-2 text-dark"> dementus a dincidunto -<span id="gray2"> Gray</span> <span id="white2">
+                      White</span> <span id="black2"> Black</span>
+                    <span id="gray3">Dark Gray</span>
+                  </p>
+                </a>
+                <h5> <span class="from2 pe-2 ">$300.00</span>$199.00</h5>
+
+                <img onclick="firim4()" onmouseover="tooltipover4()" onmouseout="toolout4()" src="image/img11.webp"
+                  alt="" width="30px" height="30px" id="texti4" class="me-1"><span id="tooltipimg4">Gray</span>
+
+                <img onclick="fun4()" onmouseover="tooltipover4a()" onmouseout="toolout4a()" src="image/img13.webp"
+                  alt="" width="30px" height="30px" id="texti4a" class="me-1"><span id="tooltipimg4a">White</span>
+
+                <img onclick="fun4a()" onmouseover="tooltipover4b()" onmouseout="toolout4b()" src="image/img16.webp"
+                  alt="" width="30px" height="30px" id="texti4b" class="me-1"><span id="tooltipimg4b">Black</span>
+
+                <img onclick="fun4b()" onmouseover="tooltipover4c()" onmouseout="toolout4c()" src="image/img17.webp"
+                  alt="" width="30px" height="30px" id="texti4c"><span id="tooltipimg4c">Dark Gray</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Section class="banner2 my-5">
+    <div class="container">
+      <div class="row">
+        <h5 class="my-5 text-center " id="trend">#TREND NOW</h5>
+        <div class="banner2col d-lg-flex  justify-content-between me-0">
+          <div class="banner2left d-flex ">
+            <div class="banner2first me-4">
+              <div class="top" onmouseover="banner2over()" onmouseout="banner2out()">
+                <span id="saleb2" class="border-0 bg-danger text-white px-2">Sale</span>
+                <img src="image/img12.webp" alt="" width="255px" height="360px" id="b2img">
+                <div class=" text-center" id="innertextss">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                          fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-4">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                  </div>
+                  <div class="quickviews ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="down" class="text-center">
+                <a href="#">
+                  <p class="mt-3 text-dark">Benjamin Button</p>
+                </a>
+                <a href="#">
+                  <p class="mb-2 text-dark"> Naminos dementus a dincidunto</p>
+                </a>
+                <h5 class="text-danger"> <span class="from2 pe-2 ">$300.00</span>$170.00</h5>
+              </div>
+            </div>
+            <div class="banner2second ms-2">
+              <div class="top" onmouseover="banner2over1()" onmouseout="banner2out1()">
+                <img src="image/img14.webp" alt="" width="255px" height="360px" id="b2img">
+                <div class=" text-center" id="innertextss1">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                          fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-4">
+                    <a href="#" class="text-dark"><span id="sp1">XL</span></a>
+                  </div>
+                  <div class="quickviews ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="down" class="text-center">
+                <a href="#">
+                  <p class="mt-3 text-dark">Burberry</p>
+                </a>
+                <a href="#">
+                  <p class="mb-2 text-dark"> Loremous a cosmopolito - White</p>
+                </a>
+                <h5>$268.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="banner2right d-flex ">
+            <div class="banner2first me-4">
+              <div class="top2" onmouseover="banner2over2()" onmouseout="banner2out2()">
+                <span id="saleb2" class="border-0 bg-danger text-white px-2">Sale</span>
+                <img src="image/img17.webp" alt="" width="255px" height="360px" id="b2img">
+                <div class=" text-center" id="innertextss2">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                          fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-4">
+                    <a href="#" class="text-dark"><span id="sp1">XS</span></a>
+                  </div>
+                  <div class="quickviews ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="down" class="text-center">
+                <a href="#">
+                  <p class="mt-3 text-dark">Daventry Meers</p>
+                </a>
+                <a href="#">
+                  <p class="mb-2 text-dark"> Magnis darturien meros laciniado</p>
+                </a>
+                <h5 class="text-danger">$199.00</h5>
+              </div>
+            </div>
+            <div class="banner2second ms-2">
+              <div class="top2" onmouseover="banner2over3()" onmouseout="banner2out3()">
+                <img src="image/img16.webp" alt="" width="255px" height="360px" id="b2img">
+                <div class=" text-center" id="innertextss3">
+                  <div class="heart mb-4">
+                    <a href="#" class="text-dark"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                          fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd"
+                            d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z" />
+                        </svg></span></a>
+                  </div>
+                  <button class="py-2 px-4">SELECT OPTIONS</button>
+                  <div class="star mt-2">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg></span>
+                  </div>
+                  <div class="size mb-4">
+                    <a href="#" class="text-dark"><span id="sp1">XL</span></a>
+                  </div>
+                  <div class="quickviews ">
+                    <p>QUICK VIEW</p>
+                  </div>
+                </div>
+              </div>
+              <div id="down" class="text-center">
+                <a href="#">
+                  <p class="mt-3 text-dark">Paul Smith</p>
+                </a>
+                <a href="#">
+                  <p class="mb-2 text-dark"> Loremous a cosmopolito - Black</p>
+                </a>
+                <h5>$268.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="showmore text-center mt-4">
+          <Button>SHOW MORE</Button>
+        </div>
+      </div>
+    </div>
+  </Section>
+  <!--------------------------end of banner----------------------------->
+
+  <!---------------------------Youtube-------------------------------->
+  <section class="youtubelink">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="yticon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor"
+              class="bi bi-play-circle" viewBox="0 0 16 16">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+              <path
+                d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z" />
+            </svg>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="spoffer p-5">
+            <h5 class="mb-4">SPECIAL OFFERS</h5>
+            <h3 class="mb-4">Phasellus Loremous</h3>
+            <p class="mb-4">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis.
+              Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper
+              mattis drostique...</p>
+            <button>SHOP THE COLLECTION</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------------------------end of youtube------------------------>
+
+  <!------------------------------feedback--------------------------->
+  <section class="feedback bg-light">
+    <div class="container pb-5 pt-4">
+      <div class="row">
+        <h5 class="text-center pt-5">LET OUR CUSTOMERS SPEAK FOR US</h5>
+        <div class="owl-carousel o">
+          <div class="item" style="padding-top: 0; margin-top:0;">
+            <img src="image/custom-view-1-compressor_115x.webp" alt=""
+              style="width:30%; position: relative; left: 120px; top:50px; ">
+
+            <div class="textin border border-1 bg-white text-center" style="padding:30px;">
+
+              <h5 style="margin-top:60px; font-size: 20px; font-weight: 500;margin-bottom: 20px; ">Best Product ever
+              </h5>
+              <p style="font-size:13px;  ">
+                Nam tempus turpis at metus cosmo scelerisque placerat nulla deumantos solicitud de felis. Pellentesque
+                diam delos lorem...
+              </p>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <p style="font-size:13px; margin: 20px 0; ">Purchsed: <span>Magnis darturien eros laciniados...</span>
+              </p>
+              <h5 style="font-size:16px ; font-weight:500;color:#4DAC4C; margin-bottom:10px; ">Anne Le</h5>
+              <span style="font-size: 13px;">Wednesday, Jan 26, 2019</span>
+            </div>
+          </div>
+          <div class="item" style="padding-top: 0; margin-top:0;">
+            <img src="image/custom-view-2.webp" alt="" style="width:30%; position: relative; left: 120px; top:50px;">
+
+            <div class="textin border border-1 bg-white text-center" style="padding:30px;">
+
+              <h5 style="margin-top:60px; font-size: 20px; font-weight: 500;margin-bottom: 20px; ">Awesome...</h5>
+              <p style="font-size:13px;  ">
+                Nam tempus turpis at metus cosmo scelerisque placerat nulla deumantos solicitud de felis. Pellentesque
+                diam delos lorem...
+              </p>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <p style="font-size:13px; margin: 20px 0; ">Purchsed: <span>Magnis darturien eros laciniados...</span>
+              </p>
+              <h5 style="font-size:16px ; font-weight:500;color:#4DAC4C; margin-bottom:10px; ">John Doe</h5>
+              <span style="font-size: 13px;">Wednesday, Jan 26, 2019</span>
+            </div>
+          </div>
+          <div class="item" style="padding-top: 0; margin-top:0;">
+            <img src="image/custom-view-3.webp" alt="" style="width:30%; position: relative; left: 120px; top:50px;">
+
+            <div class="textin border border-1 bg-white text-center" style="padding:30px;">
+
+              <h5 style="margin-top:60px; font-size: 20px; font-weight: 500;margin-bottom: 20px; ">Great price...</h5>
+              <p style="font-size:13px;  ">
+                Nam tempus turpis at metus cosmo scelerisque placerat nulla deumantos solicitud de felis. Pellentesque
+                diam delos lorem...
+              </p>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <p style="font-size:13px; margin: 20px 0; ">Purchsed: <span>Magnis darturien eros laciniados...</span>
+              </p>
+              <h5 style="font-size:16px ; font-weight:500;color:#4DAC4C; margin-bottom:10px; ">Sarah P.</h5>
+              <span style="font-size: 13px;">Wednesday, Jan 26, 2019</span>
+            </div>
+          </div>
+          <div class="item" style="padding-top: 0; margin-top:0;">
+            <img src="image/custom-view-1-compressor_115x.webp" alt=""
+              style="width:30%; position: relative; left: 120px; top:50px;">
+
+            <div class="textin border border-1 bg-white text-center" style="padding:30px;">
+
+              <h5 style="margin-top:60px; font-size: 20px; font-weight: 500;margin-bottom: 20px; ">Awesome...</h5>
+              <p style="font-size:13px;  ">
+                Nam tempus turpis at metus cosmo scelerisque placerat nulla deumantos solicitud de felis. Pellentesque
+                diam delos lorem...
+              </p>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <span style="color:#FAA900;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg></span>
+              <p style="font-size:13px; margin: 20px 0; ">Purchsed: <span>Magnis darturien eros laciniados...</span>
+              </p>
+              <h5 style="font-size:16px ; font-weight:500;color:#4DAC4C; margin-bottom:10px; ">Customer Name</h5>
+              <span style="font-size: 13px;">Wednesday, Jan 26, 2019</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------------------end of feedback--------------------------->
+
+  <!------------------------ella on instagram---------------------->
+  <section class="ellaoninsta">
+    <div class="container py-5">
+      <div class="row">
+        <h5 class="text-center"><span class="pe-3"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="19"
+              fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg></span>#ELLA ON INSTAGRAM</h5>
+        <p class="text-center pt-2 pb-4" id="ella">Phasellus lorem malesuada ligula pulvinar commodo maecenas</p>
+        <div class="col-lg-6">
+          <div class="image d-flex ">
+            <a href="" class="leftella"><img src="image/holiday-decorated-ball-ornament-on-tree-compressor_640x.webp" width="270px" height="309px"
+              alt="" ></a>  
+            <a href="" class="rightella" ><img src="image/heart-shaped-holiday-wreath-compressor_640x.webp" class="ms-2" width="285px" height="309px"
+              alt=""></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="image d-flex">
+            <a href="" class="leftella1"><img src="image/candy-cane-ornament-on-tree-compressor_640x.webp" width="270px" height="309px" alt="" ></a>
+            <a href="" class="rightella1"><img src="image/cheers-to-holiday-eggnog-compressor_640x.webp" width="270px" height="309px" alt="" class="ms-2" ></a>  
+          </div>
+        </div>
+        <div class="col-lg-6 mt-2">
+          <div class="image d-flex ">
+            <a href="" class="leftella"><img src="image/gold-metallic-ball-ornament-on-tree-compressor_640x.webp" width="270px" height="309px"
+              alt=""></a>
+            <a href="" class="rightella"><img src="image/candy-canes-in-crystal-glass-compressor_640x.webp" class="ms-2" width="285px" height="309px"
+              alt=""></a>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-2">
+          <div class="image d-flex ">
+            <a href="" class="leftella1"><img src="image/christmas-berry-wreath-compressor_640x.webp" width="270px" height="309px" alt=""></a>
+            <a href="" class="rightella1"><img src="image/christmas-tree-decor-flatlay-compressor_640x.webp" width="270px" height="309px" alt="" class="ms-2" ></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------------end of ella on instagram-------------------->
+
+  <!---------------------------services---------------------------->
+  <section>
+    <div class="container">
+      <div class="row py-5">
+        <div class="d-flex justify-content-around">
+          <div class="deliver d-flex">
+            <a href=""><i class="fa fa-truck text-danger" style="font-size: 50px;" aria-hidden="true"></i></a>
+            <div class="text ms-4">
+              <a href="" class="text-dark"><span class="del">Free Standard Delivery<br></span><span class="cosmo">Cosmo
+                  de milancelos.</span></a>
+
+            </div>
+          </div>
+          <div class="deliver d-flex">
+            <a href=""><i class="fa fa-undo text-danger" style="font-size: 50px;" aria-hidden="true"></i></a>
+            <div class="text ms-4">
+              <a href="" class="text-dark"><span class="del">Free In Store Returns<br></span><span class="cosmo">Cosmo
+                  de milancelos.</span></a>
+
+            </div>
+          </div>
+          <div class="deliver d-flex">
+            <a href=""><i class="fa fa-shield text-danger" style="font-size: 50px;" aria-hidden="true"></i></a>
+            <div class="text ms-4">
+              <a href="" class="text-dark"><span class="del">100% Secure Checkout<br></span><span class="cosmo">Cosmo de
+                  milancelos.</span></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------end of  services---------------------------->
+
+  <!-------------------signup----------------------------------------->
+  <section>
+    <div class="parallax py-5" data-parallax="scroll" data-image-src="image/par.jpg" data-z-index="1">
+      <h5 class="text-center text-white">NEWSLETTER SIGNUP</h5>
+      <p class="text-center text-white py-2">Receive our latest updates about our products and promotions.</p>
+      <form class="text-center">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <input type="email" placeholder="enter your email address"><button>SUBMIT</button>
+      </form>
+    </div>
+  </section>
+  <!-------------------end of signup------------------------------------->
+
+  <!----------------------footer--------------------------------------->
+  <footer class="footer1 py-5">
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-lg-2 me-5">
+          <h5 class="pb-2">SHOP</h5>
+          <ul class="p-0">
+            <li><a href=""><span class="f1">New In</span></a></li>
+            <li><a href=""><span class="f1">Women</span></a></li>
+            <li><a href=""><span class="f1">Men</span></a></li>
+            <li><a href=""><span class="f1">Shoes</span></a></li>
+            <li><a href=""><span class="f1">Bags & Accessories</span></a></li>
+            <li><a href=""><span class="f1">Top Brands</span></a></li>
+            <li><a href=""><span class="f1">Sale & Special Offers</span></a></li>
+            <li><a href=""><span class="f1">Lookbook</span></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 me-5">
+          <h5 class="pb-2">INFORMATION</h5>
+          <ul class="p-0">
+            <li><a href=""><span class="f1">About</span></a></li>
+            <li><a href=""><span class="f1">Customer Service</span></a></li>
+            <li><a href=""><span class="f1">Reward Program</span></a></li>
+            <li><a href=""><span class="f1">Shipping & Returns</span></a></li>
+            <li><a href=""><span class="f1">Store Locations</span></a></li>
+            <li><a href=""><span class="f1">Terms & Conditions</span></a></li>
+            <li><a href=""><span class="f1">Blog</span></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 me-5">
+          <h5 class="pb-2">CUSTOMER SERVICE</h5>
+          <ul class="p-0">
+            <li><a href=""><span class="f1">Search Terms</span></a></li>
+            <li><a href=""><span class="f1">Advanced Search</span></a></li>
+            <li><a href=""><span class="f1">Orders and Returns</span></a></li>
+            <li><a href=""><span class="f1">Contact Us</span></a></li>
+            <li><a href=""><span class="f1">Theme FAQs</span></a></li>
+            <li><a href=""><span class="f1">Consultant</span></a></li>
+            <li><a href=""><span class="f1">Store Locations</span></a></li>
+        </div>
+        <div class="col-lg-4">
+          <img src="image/ella-logo-black-compressor.webp" width="60.94px" height="28px" alt="">
+          <ul class="p-0 pt-3">
+            <li><a href="" class="text-dark"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg><span class="ps-3">685 Market Street, Cosmopolis, CA 94105, United States</span></a></li>
+            <li><a href="" class="text-dark ms-1"><i class="fa fa-phone-square" aria-hidden="true"></i><span
+                  class="ps-3">1.800.000.6690</span></a></li>
+            <li class="pb-4"><a href="" class="text-dark ms-1"><i class="fa fa-envelope-o" aria-hidden="true"></i><span
+                  class="ps-3">support@halothemes.com</span></a></li>
+            <img src="image/trust_800x-compressor.webp" alt="">
+          </ul>
+        </div>
+      </div>
+      <div class="fsoc d-flex justify-content-center">
+        <div class="footersocial ">
+          <a href="" id="ffacebook" class="me-2"><i class="fa fa-facebook" aria-hidden="true"
+              style="font-size:17px ;"></i></a><span id="fb">Facebook</span>
+          <a href="" id="ftwitter" class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+              fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path
+                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+            </svg></a><span id="ft">Twitter</span>
+          <a href="" id="fgoogle" class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+              fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+              <path
+                d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+            </svg></a><span id="fg">Google</span>
+          <a href="" id="finsta" class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+              fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg></a><span id="fi">Instagram</span>
+          <a href="" id="fpinterest" class="me-2"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+              fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+              <path
+                d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z" />
+            </svg></a><span id="fp">Pinterest</span>
+          <a href="" class="me-2" id="fsnapchat"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+              fill="currentColor" class="bi bi-snapchat" viewBox="0 0 16 16">
+              <path
+                d="M15.943 11.526c-.111-.303-.323-.465-.564-.599a1.416 1.416 0 0 0-.123-.064l-.219-.111c-.752-.399-1.339-.902-1.746-1.498a3.387 3.387 0 0 1-.3-.531c-.034-.1-.032-.156-.008-.207a.338.338 0 0 1 .097-.1c.129-.086.262-.173.352-.231.162-.104.289-.187.371-.245.309-.216.525-.446.66-.702a1.397 1.397 0 0 0 .069-1.16c-.205-.538-.713-.872-1.329-.872a1.829 1.829 0 0 0-.487.065c.006-.368-.002-.757-.035-1.139-.116-1.344-.587-2.048-1.077-2.61a4.294 4.294 0 0 0-1.095-.881C9.764.216 8.92 0 7.999 0c-.92 0-1.76.216-2.505.641-.412.232-.782.53-1.097.883-.49.562-.96 1.267-1.077 2.61-.033.382-.04.772-.036 1.138a1.83 1.83 0 0 0-.487-.065c-.615 0-1.124.335-1.328.873a1.398 1.398 0 0 0 .067 1.161c.136.256.352.486.66.701.082.058.21.14.371.246l.339.221a.38.38 0 0 1 .109.11c.026.053.027.11-.012.217a3.363 3.363 0 0 1-.295.52c-.398.583-.968 1.077-1.696 1.472-.385.204-.786.34-.955.8-.128.348-.044.743.28 1.075.119.125.257.23.409.31a4.43 4.43 0 0 0 1 .4.66.66 0 0 1 .202.09c.118.104.102.26.259.488.079.118.18.22.296.3.33.229.701.243 1.095.258.355.014.758.03 1.217.18.19.064.389.186.618.328.55.338 1.305.802 2.566.802 1.262 0 2.02-.466 2.576-.806.227-.14.424-.26.609-.321.46-.152.863-.168 1.218-.181.393-.015.764-.03 1.095-.258a1.14 1.14 0 0 0 .336-.368c.114-.192.11-.327.217-.42a.625.625 0 0 1 .19-.087 4.446 4.446 0 0 0 1.014-.404c.16-.087.306-.2.429-.336l.004-.005c.304-.325.38-.709.256-1.047Zm-1.121.602c-.684.378-1.139.337-1.493.565-.3.193-.122.61-.34.76-.269.186-1.061-.012-2.085.326-.845.279-1.384 1.082-2.903 1.082-1.519 0-2.045-.801-2.904-1.084-1.022-.338-1.816-.14-2.084-.325-.218-.15-.041-.568-.341-.761-.354-.228-.809-.187-1.492-.563-.436-.24-.189-.39-.044-.46 2.478-1.199 2.873-3.05 2.89-3.188.022-.166.045-.297-.138-.466-.177-.164-.962-.65-1.18-.802-.36-.252-.52-.503-.402-.812.082-.214.281-.295.49-.295a.93.93 0 0 1 .197.022c.396.086.78.285 1.002.338.027.007.054.01.082.011.118 0 .16-.06.152-.195-.026-.433-.087-1.277-.019-2.066.094-1.084.444-1.622.859-2.097.2-.229 1.137-1.22 2.93-1.22 1.792 0 2.732.987 2.931 1.215.416.475.766 1.013.859 2.098.068.788.009 1.632-.019 2.065-.01.142.034.195.152.195a.35.35 0 0 0 .082-.01c.222-.054.607-.253 1.002-.338a.912.912 0 0 1 .197-.023c.21 0 .409.082.49.295.117.309-.04.56-.401.812-.218.152-1.003.638-1.18.802-.184.169-.16.3-.139.466.018.14.413 1.991 2.89 3.189.147.073.394.222-.041.464Z" />
+            </svg></a><span id="fs">Snapchat</span>
+        </div>
+        <div class="footersocimg ms-2 ">
+          <a href="" class="appst"><img src="image/applestore.webp" alt="" class="me-2"></a>
+          <a href=""><img src="image/playstore.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="footer2">
+    <div class="container">
+      <div class="row py-5">
+        <div class="body d-flex justify-content-between">
+          <div class="left">
+            <p>© 2018 Ella Demo. All Rights Reserved. Ecommerce Software by Shopify.</p>
+            <p>Shopify Themes by HaloThemes.com.</p>
+          </div>
+          <div class="right">
+            <img src="image/Visa_Inverted_x32_png_x32.jpg" alt="" class="me-2">
+            <img src="image/MasterCard_x32_png_x32.jpg" alt="" class="me-2">
+            <img src="image/American-Express_x32_png_x32.jpg" alt="" class="me-2">
+            <img src="image/Cirrus_Inverted_x32_png_x32.jpg" alt="" class="me-2">
+            <img src="image/Discover_x32_png_x32.jpg" alt="" class="me-2">
+            <img src="image/PayPal_x32_png_x32.jpg" alt="" class="me-2">
+            <img src="image/Western_Union_x32_png_x32.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".o").owlCarousel({
+        margin: 30,
+        nav: true,
+        loop: true,
+        mouseDrag: false,
+        merge: true,
+        dots: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          768: {
+            items: 2,
+            nav: true
+          },
+          993: {
+            items: 3,
+            nav: true,
+            loop: true
+          }
+        }
+      }
+      );
+    });
+    $("#ffacebook").mouseover(function () {
+      $("#fb").show()
+    })
+    $("#ffacebook").mouseout(function () {
+      $("#fb").hide()
+    })
+    $("#ftwitter").mouseover(function () {
+      $("#ft").show()
+    })
+    $("#ftwitter").mouseout(function () {
+      $("#ft").hide()
+    })
+    $("#fgoogle").mouseover(function () {
+      $("#fg").show()
+    })
+    $("#fgoogle").mouseout(function () {
+      $("#fg").hide()
+    })
+    $("#finsta").mouseover(function () {
+      $("#fi").show()
+    })
+    $("#finsta").mouseout(function () {
+      $("#fi").hide()
+    })
+    $("#fpinterest").mouseover(function () {
+      $("#fp").show()
+    })
+    $("#fpinterest").mouseout(function () {
+      $("#fp").hide()
+    })
+    $("#fsnapchat").mouseover(function () {
+      $("#fs").show()
+    })
+    $("#fsnapchat").mouseout(function () {
+      $("#fs").hide()
+    })
+
+    $("#search").click(function () {
+      $("#headsearch").css('visibility', 'visible')
+      $("input").addClass("input-open")
+    })
+    $("#close2").click(function () {
+      $("#headsearch").css('visibility', 'hidden');
+      $("input").removeClass('input-open')
+    })
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 50) {
+        $("nav").addClass('new')
+        $(".arrow").css('visibility', 'visible')
+      }
+      else {
+        $("nav").removeClass('new')
+        $(".arrow").css('visibility', 'hidden')
+      }
+    })
+    $(".arrowup").click(function () {
+      $(window).scrollTop("")
+    })
+    $('.parallax-window').parallax({imageSrc: '/path/to/image.jpg'});
+
+
+
+
+
+
+  </script>
+
+  <script src="js/first.js"></script>
+</body>
+
+</html>
